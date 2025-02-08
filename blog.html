@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Nihat Kerem Bora</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="home-page">
+    <header>
+        <nav class="navbar">
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="blog.html" class="active">My Blog</a>
+            </div>
+            <div class="nav-right">
+                <div class="social-links">
+                    <a href="https://github.com/NKeremBora" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://medium.com/@190601030" target="_blank"><i class="fab fa-medium"></i></a>
+                    <a href="https://www.linkedin.com/in/nihat-kerem-bora-2ba933209/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container home-container">
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="blog-search" placeholder="Search blogs...">
+            </div>
+        </div>
+        
+        <div class="tagline">Sharing knowledge and experiences in software development</div>
+        
+        <section class="hero-section">
+            <h1>My Blog Posts</h1>
+            <p class="subtitle">Thoughts on Technology & Development</p>
+        </section>
+
+        <section class="welcome-section">
+            <div class="welcome-card">
+                <div class="blog-grid">
+                    <!-- Blog Post 1 -->
+                    <article class="blog-post">
+                        <div class="blog-post-image">
+                            <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*VWW861Yn8fa4tmZooRnQbA.png" alt="Introduction to Elasticsearch">
+                        </div>
+                        <div class="blog-post-content">
+                            <h3>Introduction to Elasticsearch</h3>
+                            <div class="post-meta">
+                                <span class="date">February 7, 2025</span>
+                                <span class="category">Data Management</span>
+                            </div>
+                            <p>An in-depth exploration of Elasticsearch, covering its core concepts, installation using Docker, and basic operations like creating indices and documents.</p>
+                            <a href="blog-post.html" class="btn secondary-btn read-more-btn">Read More</a>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 2 -->
+                    <article class="blog-post">
+                        <div class="blog-post-image">
+                            <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*uQhDTmWNK3BodhnsP8c6Ug.png" alt="Single-Primary vs. Multi-Primary Replication">
+                        </div>
+                        <div class="blog-post-content">
+                            <h3>Single-Primary vs. Multi-Primary Replication: Differences, Advantages, and Use Cases</h3>
+                            <div class="post-meta">
+                                <span class="date">March 1, 2024</span>
+                                <span class="category">Database Replication</span>
+                            </div>
+                            <p>An in-depth analysis of single-primary and multi-primary replication strategies, discussing their differences, advantages, and appropriate use cases in database systems.</p>
+                            <a href="blog-post.html" class="btn secondary-btn read-more-btn">Read More</a>
+                        </div>
+                    </article>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="simple-footer">
+        <p>&copy; 2025 Nihat Kerem Bora.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
